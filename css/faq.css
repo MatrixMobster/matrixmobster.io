@@ -1,0 +1,7 @@
+div.panel-heading {
+	cursor:pointer;
+}
+
+div.panel-body {
+	display:none;
+}

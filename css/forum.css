@@ -1,0 +1,53 @@
+
+/* Forums
+ */
+div.forums {
+	margin-bottom:20px;
+}
+
+div.forums table tbody tr:nth-child(2n) td {
+	padding-left:30px;
+}
+
+div.forums table a {
+	font-weight:bold;
+	text-decoration:none;
+}
+
+/* Forum
+ */
+table.table td {
+	font-size:18px;
+}
+
+table.table td:nth-child(4) {
+	width:200px;
+}
+
+div.row div.col-sm-2 {
+	text-align:right;
+}
+
+@media (max-width:767px) {
+	table.table th:nth-child(n+3),
+	table.table td:nth-child(n+3) {
+		display:none;
+	}
+}
+
+/* Topic
+ */
+div.topic div.panel-heading div div:nth-child(3) {
+	text-align:right;
+}
+
+span.registered {
+	color:#0080ff;
+}
+
+/* Smilies
+ */
+div.smilies img {
+	margin-left:2px;
+	cursor:pointer;
+}
